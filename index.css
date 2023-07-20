@@ -1,0 +1,130 @@
+nav {
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 395px;
+    height: 80px;
+    padding-left: 1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.menu.first {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+ul.menu>div>a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.right {
+    padding: 0.5rem;
+
+}
+
+ul.menu.second {
+    border: none;
+    margin: 0;
+    list-style-type: none;
+    padding: 0.5rem;
+    text-decoration: none;
+    position: relative;
+}
+
+.second>div>li>a {
+    text-decoration: none;
+    padding-inline: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+
+
+li#home>a:after {
+    content: "";
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    background: skyblue;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+}
+
+li#home>a:hover::after {
+    width: 100%;
+}
+
+footer {
+    color:whitesmoke;
+    bottom: 1%;
+    height: 20rem;
+    background-image: linear-gradient(darkblue,blue,skyblue);
+}
+.imgfooter{
+    height: 90px;
+    padding-top:0.5rem;
+    
+}
+.leftfooter{
+   
+    list-style-type:none;
+    text-decoration: none;
+    margin:-1rem; 
+    width: 100%;
+    
+}
+ul.leftfooter>li{
+  
+    margin:1rem;
+}
+div#license{
+    margin-left: 1rem;
+}
+div.flex#interact{
+   justify-content:left;
+   padding:0;
+   margin:1rem;   
+}
+div#interact>li#MXH{
+    padding-inline: 1rem;
+}
+.rightfooter{
+    list-style-type:none;
+    text-decoration: none;
+    margin:1rem;
+    padding:1rem;
+}
+ul.rightfooter>li{
+    margin: 1rem;
+    
+}
+ul>li#call{
+    text-align: center;
+    font-weight: bold;
+}
+ul>li#name{
+    font-size: smaller;
+    font-style: italic;
+}
